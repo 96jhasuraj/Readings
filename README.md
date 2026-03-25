@@ -5,3 +5,4 @@ will be reading some books, watching some videos & implementing some papers :P s
 - [ ] DDIA - ch4
 - [ ] LLM from scratch - ch4
 - [ ] PMPP - Ch2
+- [ ] CS:APP - Ch1
