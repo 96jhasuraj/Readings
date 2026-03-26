@@ -1,6 +1,6 @@
-# Learnings
+# Learnings & Experminents
 
-- [ ] Addition
-
-1. Vector addition is a memory bound op ; data has to be moved in & out
-2. Over 10k iterations -> CPU Time: 0.005000 | CORE GPU Compute Time: 0.000079 | GPU Time :0.907000
+| Experiment               | CPU Time (sec) | GPU Compute Time (sec) | GPU Total Time (sec) | Key Insight                                                                    |
+| ------------------------ | -------------- | ---------------------- | -------------------- | ------------------------------------------------------------------------------ |
+| **Vector Addition**      |    0.005          | 0.000079               | 0.907                | Memory-bound operation; data transfer dominates GPU total time                 |
+| **Grayscale Conversion** | 0.022          | 0.001                  | 0.19                 | GPU compute is ~20× faster, but memory allocation + transfer is the bottleneck |
